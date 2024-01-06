@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+  }
+  h1 {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+  }
+  .operations-list {
+    font-size: 25px;
+    margin: 50px auto 25px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  hr {
+    margin: 50px;
+  }
+  .text {
+    border: 2px solid white;
+    background-color: aliceblue;
+    color: black;
+    width: 70vw;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .io_part {
+    border: 2px solid red;
+    width: 90vw;
+    margin: 30px auto;
+    height: 190px;
+  }
+  label {
+    font-style: italic;
+    font-size: 30px;
+    margin: 5px;
+  }
+  .input {
+    margin: 20px;
+  }
+  .output {
+    margin: 20px;
+  }
+  input {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    opacity: 0.5;
+    color: black;
+  }
+  .btn {
+    margin: 20px;
+  }
+  button {
+    background-color: azure;
+    width: 14rem;
+    height: 35px;
+    display: block;
+    margin: auto;
+  }

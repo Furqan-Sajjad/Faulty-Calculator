@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>faulty Calculator</title>
+  </head>
+  <body>
+    <h1>Faulty Calculator</h1>
+    <hr />
+    <div class="text">
+      <p>Note that you can perform only four operations given below.</p>
+    </div>
+    <div class="operations-list">
+      <span>Addition</span>
+      <span>Subtraction</span>
+      <span>Multiplication</span>
+      <span>Division</span>
+    </div>
+    <div class="io_part">
+      <div class="input">
+        <label for="input"
+          >Your input here
+          <input
+            type="text"
+            name="result"
+            id="input"
+            placeholder="Enter your input"
+        /></label>
+      </div>
+      <div class="output">
+        <label for="result"
+          >Result
+          <input
+            type="text"
+            name="result"
+            id="result"
+            placeholder="Your result is......"
+        /></label>
+      </div>
+      <div class="btn">
+        <button type="submit" onclick="calculate()">Submit Now</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
